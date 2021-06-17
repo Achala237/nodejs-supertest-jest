@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-supertest-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage --detectOpenHandles",
+    "test:watch": "jest --collectCoverage --detectOpenHandles --watchAll"
+  },
+  "author": "Achala",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4",
+    "nodemon": "^2.0.7",
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.3",
+    "supertest": "^6.1.3"
+  }
+}
